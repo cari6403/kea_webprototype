@@ -11,6 +11,7 @@ body {
 
 img {
     width: 100%;
+
 }
 
 section {
@@ -33,6 +34,7 @@ section {
     position: relative;
 
 }
+
 
 #kea_logo {
     position: absolute;
@@ -101,4 +103,227 @@ section {
 
 
 
+}
+
+#menu {
+    width: 100%;
+    max-width: none;
+    background-color: var(--color-red);
+    height: 15vw;
+    position: relative;
+
+
+}
+
+#kealogo_menu {
+    background-image: url(billeder/kea_logo.png);
+    background-size: 100%;
+    width: 13vw;
+    height: 3.8vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 7.5vw;
+    left: 3vw;
+
+}
+
+#profil_logo {
+    background-image: url(billeder/profillogo.png);
+    background-size: 100%;
+    width: 3vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3.6vw;
+    left: 80vw;
+}
+
+#burgermenu {
+    background-image: url(billeder/burgermenu.png);
+    background-size: 100%;
+    width: 3.5vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3.6vw;
+    left: 90vw;
+}
+
+#galleri {
+    margin: 1rem;
+
+}
+
+#materialer {
+    background-image: url(Sk%C3%A6rmbillede%202019-05-28%20kl.%2009.57.19.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+}
+
+#skema {
+    background-image: url(billeder/skema.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+
+}
+
+#notifikation {
+    background-image: url(billeder/notifikationer.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    margin-right: 1.5rem;
+}
+
+#column1,
+#column2,
+#column3,
+#column4 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#column2,
+#column3,
+#column4 {
+    margin-top: 1rem;
+}
+
+
+#tech_lounge {
+    background-image: url(billeder/techlounge.png);
+    width: 61.5vw;
+    0 height: 30vw;
+    background-size: 100%;
+
+
+}
+
+#mail {
+    background-image: url(billeder/skema.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    margin-right: 1.5rem;
+
+}
+
+#favoritter {
+    background-image: url(billeder/favoritter.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+}
+
+#grupper {
+    background-image: url(billeder/grupper.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+
+}
+
+#chat {
+    background-image: url(billeder/chat.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    margin-right: 1.5rem;
+}
+
+#soeg {
+    background-image: url(billeder/soeg.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+}
+
+#afleveringer {
+    background-image: url(billeder/afleveringer.png);
+    width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    margin-top: 1rem;
+
+}
+
+#aktuelt {
+    background-image: url(billeder/aktuelt.png);
+    width: 61.5vw;
+    height: 63vw;
+    background-size: 100%;
+    margin-right: 1.5rem;
+}
+
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 7vw;
+    left: 93vw;
+
+
+}
+
+
+
+#menu_list {
+    list-style-type: none;
+    transition: transform .3s;
+    background-color: #3F3140;
+    height: 180vw;
+    margin-top: -4vw;
+    text-align: center;
+
+
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #F58E81;
+    font-size: 4.5vw;
+    font-weight: bolder;
+
+
+
+}
+
+
+
+li {
+    margin-bottom: 3rem;
+}
+
+#aktuelt_burger {
+    padding-top: 40vw;
+}
+
+#logud_burger {
+
+    height: 12vw;
+    background-color: #F58E81;
+    margin-left: -10vw;
+    margin-top: 15.6rem;
+
+}
+
+#logud_burger p {
+    font-family: sans-serif;
+    font-size: 4.5vw;
+    color: white;
+    font-weight: bolder;
+    line-height: 3rem;
 }
