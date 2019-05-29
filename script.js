@@ -15,6 +15,8 @@ function toggleMenu() {
     console.log("toggleMenu");
     document.querySelector("#menu_list").classList.toggle("hidden");
 
+    document.querySelector("#profil_logo").classList.toggle("hidden");
+
     let erSkjult = document.querySelector("#menu_list").classList.contains("hidden");
 
     if (erSkjult == true) {
@@ -34,6 +36,11 @@ function toggleMenu() {
 
 function toggleMenuAflevering() {
     document.querySelector("#aflevering_list").classList.toggle("hidden");
+
+
+
+
+
 
     let erSkjult1 = document.querySelector("#aflevering_list").classList.contains("hidden");
 

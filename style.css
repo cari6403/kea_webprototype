@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-red: #EA5045;
+    --color-grey: #FAF7F7;
+}
+
 body {
     margin: 0;
     background-color: var(--color-grey);
@@ -22,10 +27,7 @@ section {
 
 }
 
-:root {
-    --color-red: #EA5045;
-    --color-grey: #FAF7F7;
-}
+
 
 h1 {
     font-family: sans-serif;
@@ -151,6 +153,7 @@ p {
     position: absolute;
     top: 7.5vw;
     left: 3vw;
+    z-index: 15;
 
 }
 
@@ -161,20 +164,11 @@ p {
     height: 3vw;
     background-repeat: no-repeat;
     position: absolute;
-    top: 3.6vw;
+    top: 7vw;
     left: 80vw;
+    z-index: 15;
 }
 
-#burgermenu {
-    background-image: url(billeder/burgermenu.png);
-    background-size: 100%;
-    width: 3.5vw;
-    height: 3vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 3.6vw;
-    left: 90vw;
-}
 
 #galleri {
     margin: 1rem;
@@ -223,7 +217,7 @@ p {
 #tech_lounge {
     background-image: url(billeder/techlounge.png);
     width: 61.5vw;
-    0 height: 30vw;
+    height: 30vw;
     background-size: 100%;
 
 
@@ -299,8 +293,9 @@ p {
     color: white;
     cursor: pointer;
     position: absolute;
-    top: 7vw;
-    left: 93vw;
+    top: 6vw;
+    left: 90vw;
+    z-index: 15;
 
 
 }
@@ -314,6 +309,8 @@ p {
     height: 180vw;
     margin-top: -4vw;
     text-align: center;
+    position: relative;
+    z-index: 10;
 
 
 }
@@ -333,6 +330,11 @@ a {
 
 li {
     margin-bottom: 3rem;
+    list-style-type: none;
+}
+
+#aflevering_list li{
+    margin-bottom: 0;
 }
 
 #aktuelt_burger {
@@ -365,8 +367,8 @@ li {
 
 }
 
-.upload_boks{
-     width: 93vw;
+.upload_boks {
+    width: 93vw;
     height: 24vw;
     background-color: #F2F1F0;
     margin: 1rem;
@@ -383,10 +385,9 @@ li {
     top: 10vw;
 }
 
-#fileToUpload{
+#fileToUpload {
     padding-left: 1rem;
     padding-top: 1rem
-
 }
 
 #aflevering_knap {
@@ -401,10 +402,10 @@ li {
 
 }
 
-.aflevering_udvidet{
+.aflevering_udvidet {
     border: solid 1px;
     border-color: lightgray;
-     width: 93vw;
+    width: 93vw;
     height: 18vw;
     margin-left: -2.5rem;
     position: relative;
@@ -414,7 +415,7 @@ li {
 
 }
 
-#tema1_aflevering{
+#tema1_aflevering {
     position: relative;
     z-index: 1;
 }
